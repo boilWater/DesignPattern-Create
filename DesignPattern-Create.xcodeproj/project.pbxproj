@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1B44431E815613001C3205 /* ViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1B44421E815613001C3205 /* ViewA.m */; };
+		AE1B44461E815636001C3205 /* ViewA0.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1B44451E815636001C3205 /* ViewA0.m */; };
+		AE1B44491E815645001C3205 /* ViewA1.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1B44481E815645001C3205 /* ViewA1.m */; };
 		AE4132961E65940600528AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4132951E65940600528AF0 /* main.m */; };
 		AE4132991E65940600528AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4132981E65940600528AF0 /* AppDelegate.m */; };
 		AE41329C1E65940600528AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41329B1E65940600528AF0 /* ViewController.m */; };
@@ -19,12 +22,21 @@
 		AE4132D11E65AB6200528AF0 /* Dogs.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4132D01E65AB6200528AF0 /* Dogs.m */; };
 		AE4132D51E65ABAB00528AF0 /* SimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4132D41E65ABAB00528AF0 /* SimpleFactory.m */; };
 		AE4132D81E65BD6E00528AF0 /* Ducks.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4132D71E65BD6E00528AF0 /* Ducks.m */; };
+		AE4640741E78D92A00DF0E62 /* MethodBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4640731E78D92A00DF0E62 /* MethodBlocks.m */; };
+		AE4AF5241E8A0C1D001DCD86 /* FYGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4AF5231E8A0C1D001DCD86 /* FYGCD.m */; };
+		AE4AF52B1E8A7E04001DCD86 /* FYFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4AF52A1E8A7E04001DCD86 /* FYFoundation.m */; };
 		AE7E41511E66FF1A00F6FEA7 /* CompanyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E41501E66FF1A00F6FEA7 /* CompanyFactory.m */; };
 		AE7E41591E6704F300F6FEA7 /* DepartmentProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E41581E6704F300F6FEA7 /* DepartmentProduct.m */; };
 		AE7E415D1E6706F500F6FEA7 /* ManagerProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E415C1E6706F500F6FEA7 /* ManagerProduct.m */; };
 		AE7E41601E67080100F6FEA7 /* FinanceProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E415F1E67080100F6FEA7 /* FinanceProduct.m */; };
 		AE7E41631E670AD200F6FEA7 /* ManagerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E41621E670AD200F6FEA7 /* ManagerFactory.m */; };
 		AE7E41661E670BDE00F6FEA7 /* FinanceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E41651E670BDE00F6FEA7 /* FinanceFactory.m */; };
+		AEA4133B1E83E62500A7A8DA /* Thread.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA4133A1E83E62500A7A8DA /* Thread.m */; };
+		AEA413441E850F5600A7A8DA /* FYOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA413431E850F5600A7A8DA /* FYOperation.m */; };
+		AEA413471E8515F000A7A8DA /* TestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA413461E8515F000A7A8DA /* TestOperation.m */; };
+		AEF6DDC51E817F9F0060EF74 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6DDC41E817F9F0060EF74 /* BaseView.m */; };
+		AEF6DDC91E822E3F0060EF74 /* ViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6DDC81E822E3F0060EF74 /* ViewB.m */; };
+		AEF6DDCC1E822E5D0060EF74 /* ViewB1.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6DDCB1E822E5D0060EF74 /* ViewB1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE1B443F1E814748001C3205 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AE1B44411E815613001C3205 /* ViewA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewA.h; path = ResponderChain/ViewA.h; sourceTree = "<group>"; };
+		AE1B44421E815613001C3205 /* ViewA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewA.m; path = ResponderChain/ViewA.m; sourceTree = "<group>"; };
+		AE1B44441E815636001C3205 /* ViewA0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewA0.h; path = ResponderChain/ViewA0.h; sourceTree = "<group>"; };
+		AE1B44451E815636001C3205 /* ViewA0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewA0.m; path = ResponderChain/ViewA0.m; sourceTree = "<group>"; };
+		AE1B44471E815645001C3205 /* ViewA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewA1.h; path = ResponderChain/ViewA1.h; sourceTree = "<group>"; };
+		AE1B44481E815645001C3205 /* ViewA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewA1.m; path = ResponderChain/ViewA1.m; sourceTree = "<group>"; };
 		AE4132911E65940600528AF0 /* DesignPattern-Create.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignPattern-Create.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4132951E65940600528AF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE4132971E65940600528AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +88,12 @@
 		AE4132D41E65ABAB00528AF0 /* SimpleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleFactory.m; path = SimpleFectory/Factory/SimpleFactory.m; sourceTree = "<group>"; };
 		AE4132D61E65BD6E00528AF0 /* Ducks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ducks.h; path = SimpleFectory/ConcreteProduct/Ducks.h; sourceTree = "<group>"; };
 		AE4132D71E65BD6E00528AF0 /* Ducks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ducks.m; path = SimpleFectory/ConcreteProduct/Ducks.m; sourceTree = "<group>"; };
+		AE4640721E78D92A00DF0E62 /* MethodBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodBlocks.h; path = Block/MethodBlocks.h; sourceTree = "<group>"; };
+		AE4640731E78D92A00DF0E62 /* MethodBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodBlocks.m; path = Block/MethodBlocks.m; sourceTree = "<group>"; };
+		AE4AF5221E8A0C1D001DCD86 /* FYGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYGCD.h; path = Thread/GCD/FYGCD.h; sourceTree = "<group>"; };
+		AE4AF5231E8A0C1D001DCD86 /* FYGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYGCD.m; path = Thread/GCD/FYGCD.m; sourceTree = "<group>"; };
+		AE4AF5291E8A7E04001DCD86 /* FYFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYFoundation.h; path = Foundation/FYFoundation.h; sourceTree = "<group>"; };
+		AE4AF52A1E8A7E04001DCD86 /* FYFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYFoundation.m; path = Foundation/FYFoundation.m; sourceTree = "<group>"; };
 		AE7E414F1E66FF1A00F6FEA7 /* CompanyFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyFactory.h; path = Factory/CompanyFactory/CompanyFactory.h; sourceTree = "<group>"; };
 		AE7E41501E66FF1A00F6FEA7 /* CompanyFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanyFactory.m; path = Factory/CompanyFactory/CompanyFactory.m; sourceTree = "<group>"; };
 		AE7E41571E6704F300F6FEA7 /* DepartmentProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepartmentProduct.h; path = Factory/Product/DepartmentProduct.h; sourceTree = "<group>"; };
@@ -81,6 +106,18 @@
 		AE7E41621E670AD200F6FEA7 /* ManagerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManagerFactory.m; path = Factory/CompanyFactory/ConcreteFactory/ManagerFactory.m; sourceTree = "<group>"; };
 		AE7E41641E670BDE00F6FEA7 /* FinanceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinanceFactory.h; path = Factory/CompanyFactory/ConcreteFactory/FinanceFactory.h; sourceTree = "<group>"; };
 		AE7E41651E670BDE00F6FEA7 /* FinanceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinanceFactory.m; path = Factory/CompanyFactory/ConcreteFactory/FinanceFactory.m; sourceTree = "<group>"; };
+		AEA413391E83E62500A7A8DA /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Thread.h; path = Thread/Thread.h; sourceTree = "<group>"; };
+		AEA4133A1E83E62500A7A8DA /* Thread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Thread.m; path = Thread/Thread.m; sourceTree = "<group>"; };
+		AEA413421E850F5600A7A8DA /* FYOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYOperation.h; path = Thread/NSOperationQueue/FYOperation.h; sourceTree = "<group>"; };
+		AEA413431E850F5600A7A8DA /* FYOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYOperation.m; path = Thread/NSOperationQueue/FYOperation.m; sourceTree = "<group>"; };
+		AEA413451E8515F000A7A8DA /* TestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestOperation.h; path = Thread/NSOperationQueue/TestOperation.h; sourceTree = "<group>"; };
+		AEA413461E8515F000A7A8DA /* TestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestOperation.m; path = Thread/NSOperationQueue/TestOperation.m; sourceTree = "<group>"; };
+		AEF6DDC31E817F9F0060EF74 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseView.h; path = ResponderChain/BaseView/BaseView.h; sourceTree = "<group>"; };
+		AEF6DDC41E817F9F0060EF74 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseView.m; path = ResponderChain/BaseView/BaseView.m; sourceTree = "<group>"; };
+		AEF6DDC71E822E3F0060EF74 /* ViewB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewB.h; path = ResponderChain/ViewB.h; sourceTree = "<group>"; };
+		AEF6DDC81E822E3F0060EF74 /* ViewB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewB.m; path = ResponderChain/ViewB.m; sourceTree = "<group>"; };
+		AEF6DDCA1E822E5D0060EF74 /* ViewB1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewB1.h; path = ResponderChain/ViewB1.h; sourceTree = "<group>"; };
+		AEF6DDCB1E822E5D0060EF74 /* ViewB1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewB1.m; path = ResponderChain/ViewB1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +145,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE1B44401E815585001C3205 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6DDC61E817FA50060EF74 /* BaseView */,
+				AE1B44411E815613001C3205 /* ViewA.h */,
+				AE1B44421E815613001C3205 /* ViewA.m */,
+				AE1B44441E815636001C3205 /* ViewA0.h */,
+				AE1B44451E815636001C3205 /* ViewA0.m */,
+				AE1B44471E815645001C3205 /* ViewA1.h */,
+				AE1B44481E815645001C3205 /* ViewA1.m */,
+				AEF6DDC71E822E3F0060EF74 /* ViewB.h */,
+				AEF6DDC81E822E3F0060EF74 /* ViewB.m */,
+				AEF6DDCA1E822E5D0060EF74 /* ViewB1.h */,
+				AEF6DDCB1E822E5D0060EF74 /* ViewB1.m */,
+			);
+			name = ResponderChain;
+			sourceTree = "<group>";
+		};
 		AE4132881E65940600528AF0 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +186,10 @@
 		AE4132931E65940600528AF0 /* DesignPattern-Create */ = {
 			isa = PBXGroup;
 			children = (
+				AE4AF5281E8A7DD5001DCD86 /* Foundation */,
+				AEA413381E83E60400A7A8DA /* 线程 */,
+				AE1B44401E815585001C3205 /* ResponderChain */,
+				AE4640711E78D8E400DF0E62 /* Block */,
 				AE7E41671E6712C600F6FEA7 /* AbstractFactory */,
 				AE7E414B1E66FE5E00F6FEA7 /* Fectory */,
 				AE4132C71E65959400528AF0 /* SimpleFectory */,
@@ -143,6 +202,7 @@
 				AE4132A21E65940600528AF0 /* LaunchScreen.storyboard */,
 				AE4132A51E65940600528AF0 /* Info.plist */,
 				AE4132941E65940600528AF0 /* Supporting Files */,
+				AE1B443F1E814748001C3205 /* PrefixHeader.pch */,
 			);
 			path = "DesignPattern-Create";
 			sourceTree = "<group>";
@@ -204,6 +264,33 @@
 			name = Factory;
 			sourceTree = "<group>";
 		};
+		AE4640711E78D8E400DF0E62 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				AE4640721E78D92A00DF0E62 /* MethodBlocks.h */,
+				AE4640731E78D92A00DF0E62 /* MethodBlocks.m */,
+			);
+			name = Block;
+			sourceTree = "<group>";
+		};
+		AE4AF5211E8A0C00001DCD86 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				AE4AF5221E8A0C1D001DCD86 /* FYGCD.h */,
+				AE4AF5231E8A0C1D001DCD86 /* FYGCD.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		AE4AF5281E8A7DD5001DCD86 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				AE4AF5291E8A7E04001DCD86 /* FYFoundation.h */,
+				AE4AF52A1E8A7E04001DCD86 /* FYFoundation.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
 		AE7E414B1E66FE5E00F6FEA7 /* Fectory */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,8 +337,55 @@
 		AE7E41671E6712C600F6FEA7 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				AEEF7A9D1E6853A6005415B0 /* ConcreteFactory */,
+				AEEF7A9C1E685397005415B0 /* Product */,
 			);
 			name = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		AEA413381E83E60400A7A8DA /* 线程 */ = {
+			isa = PBXGroup;
+			children = (
+				AEA413411E850F1500A7A8DA /* NSOperationQueue */,
+				AEA413391E83E62500A7A8DA /* Thread.h */,
+				AEA4133A1E83E62500A7A8DA /* Thread.m */,
+			);
+			name = "线程";
+			sourceTree = "<group>";
+		};
+		AEA413411E850F1500A7A8DA /* NSOperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				AE4AF5211E8A0C00001DCD86 /* GCD */,
+				AEA413421E850F5600A7A8DA /* FYOperation.h */,
+				AEA413431E850F5600A7A8DA /* FYOperation.m */,
+				AEA413451E8515F000A7A8DA /* TestOperation.h */,
+				AEA413461E8515F000A7A8DA /* TestOperation.m */,
+			);
+			name = NSOperationQueue;
+			sourceTree = "<group>";
+		};
+		AEEF7A9C1E685397005415B0 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		AEEF7A9D1E6853A6005415B0 /* ConcreteFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ConcreteFactory;
+			sourceTree = "<group>";
+		};
+		AEF6DDC61E817FA50060EF74 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				AEF6DDC31E817F9F0060EF74 /* BaseView.h */,
+				AEF6DDC41E817F9F0060EF74 /* BaseView.m */,
+			);
+			name = BaseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +450,9 @@
 		AE4132891E65940600528AF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = liangbai;
 				TargetAttributes = {
@@ -390,18 +527,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE4132D81E65BD6E00528AF0 /* Ducks.m in Sources */,
+				AEF6DDC91E822E3F0060EF74 /* ViewB.m in Sources */,
+				AEA413441E850F5600A7A8DA /* FYOperation.m in Sources */,
+				AEA4133B1E83E62500A7A8DA /* Thread.m in Sources */,
 				AE7E41661E670BDE00F6FEA7 /* FinanceFactory.m in Sources */,
+				AE4640741E78D92A00DF0E62 /* MethodBlocks.m in Sources */,
 				AE4132D11E65AB6200528AF0 /* Dogs.m in Sources */,
 				AE7E41631E670AD200F6FEA7 /* ManagerFactory.m in Sources */,
+				AE4AF52B1E8A7E04001DCD86 /* FYFoundation.m in Sources */,
 				AE7E41591E6704F300F6FEA7 /* DepartmentProduct.m in Sources */,
+				AE1B44491E815645001C3205 /* ViewA1.m in Sources */,
 				AE7E415D1E6706F500F6FEA7 /* ManagerProduct.m in Sources */,
+				AEF6DDCC1E822E5D0060EF74 /* ViewB1.m in Sources */,
 				AE7E41511E66FF1A00F6FEA7 /* CompanyFactory.m in Sources */,
 				AE41329C1E65940600528AF0 /* ViewController.m in Sources */,
 				AE4132D51E65ABAB00528AF0 /* SimpleFactory.m in Sources */,
+				AE4AF5241E8A0C1D001DCD86 /* FYGCD.m in Sources */,
+				AEF6DDC51E817F9F0060EF74 /* BaseView.m in Sources */,
+				AEA413471E8515F000A7A8DA /* TestOperation.m in Sources */,
 				AE4132CA1E65960000528AF0 /* Animals.m in Sources */,
 				AE4132991E65940600528AF0 /* AppDelegate.m in Sources */,
+				AE1B44431E815613001C3205 /* ViewA.m in Sources */,
 				AE7E41601E67080100F6FEA7 /* FinanceProduct.m in Sources */,
 				AE4132961E65940600528AF0 /* main.m in Sources */,
+				AE1B44461E815636001C3205 /* ViewA0.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
