@@ -108,7 +108,9 @@
 #pragma mark - initGCD
 
 - (void)initGCD {
-    [[FYGCD shareInstance] timerOnDispatch];
+//    [[FYGCD shareInstance] timerOnDispatch];
+    [[FYGCD shareInstance] serialGCD];
+    [[FYGCD shareInstance] currentGCD];
 }
 
 #pragma mark - initFoundation

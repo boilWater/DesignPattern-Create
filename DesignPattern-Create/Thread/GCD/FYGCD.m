@@ -147,7 +147,68 @@
 //GCD实现数据缓存，dispatch_data_t 可以利用碎片化内存
 
 
+//测试 serial GCD
+- (void)serialGCD {
+    __block NSInteger count = 0;
+    NSString *queueLabel = [NSString stringWithFormat:@"%@.isaloution%p.inSerialGCD", [self class], self];
+    dispatch_queue_t serialQueue = dispatch_queue_create([queueLabel UTF8String], DISPATCH_QUEUE_SERIAL);
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+    
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+    
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+}
 
+- (void)currentGCD {
+    __block NSInteger count = 0;
+    NSString *queueLabel = [NSString stringWithFormat:@"%@.isaloution%p.inCurrentGCD", [self class], self];
+    dispatch_queue_t serialQueue = dispatch_queue_create([queueLabel UTF8String], DISPATCH_QUEUE_CONCURRENT);
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+    
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+    
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+    
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+
+    
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+
+    dispatch_async(serialQueue, ^{
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        count++;
+    });
+
+}
 
 
 @end

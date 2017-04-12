@@ -14,4 +14,9 @@
 
 - (void)timerOnDispatch;
 
+//测试线性队列
+- (void)serialGCD;
+
+- (void)currentGCD;
+
 @end
