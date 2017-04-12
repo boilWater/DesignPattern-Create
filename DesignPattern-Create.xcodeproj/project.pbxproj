@@ -25,6 +25,8 @@
 		AE4640741E78D92A00DF0E62 /* MethodBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4640731E78D92A00DF0E62 /* MethodBlocks.m */; };
 		AE4AF5241E8A0C1D001DCD86 /* FYGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4AF5231E8A0C1D001DCD86 /* FYGCD.m */; };
 		AE4AF52B1E8A7E04001DCD86 /* FYFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4AF52A1E8A7E04001DCD86 /* FYFoundation.m */; };
+		AE6B067A1E9E4BFE00B43CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6B06791E9E4BFE00B43CD9 /* UIKit.framework */; };
+		AE6B067C1E9E4C0800B43CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6B067B1E9E4C0800B43CD9 /* Foundation.framework */; };
 		AE7E41511E66FF1A00F6FEA7 /* CompanyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E41501E66FF1A00F6FEA7 /* CompanyFactory.m */; };
 		AE7E41591E6704F300F6FEA7 /* DepartmentProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E41581E6704F300F6FEA7 /* DepartmentProduct.m */; };
 		AE7E415D1E6706F500F6FEA7 /* ManagerProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7E415C1E6706F500F6FEA7 /* ManagerProduct.m */; };
@@ -94,6 +96,9 @@
 		AE4AF5231E8A0C1D001DCD86 /* FYGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYGCD.m; path = Thread/GCD/FYGCD.m; sourceTree = "<group>"; };
 		AE4AF5291E8A7E04001DCD86 /* FYFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYFoundation.h; path = Foundation/FYFoundation.h; sourceTree = "<group>"; };
 		AE4AF52A1E8A7E04001DCD86 /* FYFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYFoundation.m; path = Foundation/FYFoundation.m; sourceTree = "<group>"; };
+		AE6B06791E9E4BFE00B43CD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE6B067B1E9E4C0800B43CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE6B067D1E9E4EFD00B43CD9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AE7E414F1E66FF1A00F6FEA7 /* CompanyFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyFactory.h; path = Factory/CompanyFactory/CompanyFactory.h; sourceTree = "<group>"; };
 		AE7E41501E66FF1A00F6FEA7 /* CompanyFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanyFactory.m; path = Factory/CompanyFactory/CompanyFactory.m; sourceTree = "<group>"; };
 		AE7E41571E6704F300F6FEA7 /* DepartmentProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepartmentProduct.h; path = Factory/Product/DepartmentProduct.h; sourceTree = "<group>"; };
@@ -125,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6B067C1E9E4C0800B43CD9 /* Foundation.framework in Frameworks */,
+				AE6B067A1E9E4BFE00B43CD9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,10 +173,12 @@
 		AE4132881E65940600528AF0 = {
 			isa = PBXGroup;
 			children = (
+				AE6B067D1E9E4EFD00B43CD9 /* PrefixHeader.pch */,
 				AE4132931E65940600528AF0 /* DesignPattern-Create */,
 				AE4132AD1E65940600528AF0 /* DesignPattern-CreateTests */,
 				AE4132B81E65940600528AF0 /* DesignPattern-CreateUITests */,
 				AE4132921E65940600528AF0 /* Products */,
+				AE6B06781E9E4BFE00B43CD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,6 +298,15 @@
 				AE4AF52A1E8A7E04001DCD86 /* FYFoundation.m */,
 			);
 			name = Foundation;
+			sourceTree = "<group>";
+		};
+		AE6B06781E9E4BFE00B43CD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B067B1E9E4C0800B43CD9 /* Foundation.framework */,
+				AE6B06791E9E4BFE00B43CD9 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AE7E414B1E66FE5E00F6FEA7 /* Fectory */ = {
