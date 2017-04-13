@@ -218,6 +218,16 @@
     dispatch_set_target_queue(serialCustomQueue, concurrentGlobelQueue);
 }
 
+#pragma mark -delayHandler
+
+- (void)delayHandler {
+    dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, 12ull*NSEC_PER_SEC);
+    dispatch_after(delayTime, dispatch_get_main_queue(), ^{
+        NSLog(@"delay handler Method");
+    });
+}
+
+
 
 @end
 
