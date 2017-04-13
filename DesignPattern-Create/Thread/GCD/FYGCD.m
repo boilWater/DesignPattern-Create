@@ -8,6 +8,7 @@
 
 #import "FYGCD.h"
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @interface FYGCD ()
 
@@ -173,41 +174,48 @@
     NSString *queueLabel = [NSString stringWithFormat:@"%@.isaloution%p.inCurrentGCD", [self class], self];
     dispatch_queue_t serialQueue = dispatch_queue_create([queueLabel UTF8String], DISPATCH_QUEUE_CONCURRENT);
     dispatch_async(serialQueue, ^{
-        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, [NSThread currentThread]);
         count++;
     });
     
     dispatch_async(serialQueue, ^{
-        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, [NSThread currentThread]);
         count++;
     });
     
     dispatch_async(serialQueue, ^{
-        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, [NSThread currentThread]);
         count++;
     });
     
     dispatch_async(serialQueue, ^{
-        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, [NSThread currentThread]);
         count++;
     });
-
     
     dispatch_async(serialQueue, ^{
-        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, [NSThread currentThread]);
         count++;
     });
 
     dispatch_async(serialQueue, ^{
-        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, [NSThread currentThread]);
         count++;
     });
 
     dispatch_async(serialQueue, ^{
-        NSLog(@"第 %ld 个线程在队列：%@", (long)count, queueLabel);
+        NSLog(@"第 %ld 个线程在队列：%@", (long)count, [NSThread currentThread]);
         count++;
     });
+}
 
+#pragma mark -changeCustomQueuePriority
+//自定义的队列默认是 DISPATCH_QUEUE_PRIORITY_DEFAULT
+- (void)changeCustomQueuePriority {
+    dispatch_queue_t serialCustomQueue = dispatch_queue_create("com.designpatternporject.fygcdclass", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t concurrentGlobelQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0);
+//    第一个参数为：要修改的优先级，第二个是打算设置为的优先级
+    dispatch_set_target_queue(serialCustomQueue, concurrentGlobelQueue);
 }
 
 
