@@ -109,7 +109,7 @@
 
 - (void)initGCD {
 //    [[FYGCD shareInstance] timerOnDispatch];
-    [[FYGCD shareInstance] serialGCD];
+//    [[FYGCD shareInstance] serialGCD];
     [[FYGCD shareInstance] currentGCD];
 }
 
